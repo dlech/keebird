@@ -1,0 +1,18 @@
+Source: keebird
+Section: utils
+Priority: optional
+Maintainer: David Lechner <david@lechnology.com>
+Build-Depends: debhelper (>= 9.0.0), zip
+Standards-Version: 4.1.4
+Homepage: https://github.com/kee-org/keebird
+Vcs-Git: https://github.com/kee-org/keebird.git
+Vcs-Browser: https://github.com/kee-org/keebird
+
+Package: xul-ext-keebird
+Architecture: all
+Depends: ${misc:Depends},
+         thunderbird (<< 57) | icedove (<< 57),
+         keepass2-plugin-rpc (>= 1.7)
+Description: Extension for Thunderbird that connects to KeePass 2.x Password Safe.
+ KeeFox connects Thunderbird to KeePass Password Safe, the most popular open
+ source (and free) password manager.
