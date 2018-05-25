@@ -1,3 +1,12 @@
+keebird (1:1.0.1-1) bionic; urgency=medium
+
+  * beautify sjcl.js
+  * remove residual metrics strings
+  * Fix use of non-standard string.replace function flags argument
+  * fix thunderbird version dependency
+
+ -- David Lechner <david@lechnology.com>  Fri, 25 May 2018 16:06:13 -0500
+
 keebird (1:1.0.0-1) bionic; urgency=medium
 
   * Initial release
