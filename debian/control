@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/kee-org/keebird
 Package: xul-ext-keebird
 Architecture: all
 Depends: ${misc:Depends},
-         thunderbird (<< 57) | icedove (<< 57),
+         thunderbird (<< 1:57) | icedove (<< 1:57),
          keepass2-plugin-rpc (>= 1.7)
 Description: Extension for Thunderbird that connects to KeePass 2.x Password Safe.
  KeeFox connects Thunderbird to KeePass Password Safe, the most popular open
